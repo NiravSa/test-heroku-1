@@ -9,6 +9,6 @@ app.use(bodyParser.urlencoded({ extended: true, }));
 app.use(bodyParser.json({ limit: "50MB" }));
 
 app.get('/', async (req, res) => {
-    res.status(200);
-    res.json({ status: 200 });
+    res.status(400);
+    res.json({ status: 400 });
 });
