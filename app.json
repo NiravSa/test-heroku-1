@@ -2,6 +2,7 @@
     "name": "Test Heroku",
     "description": "Test Heroku",
     "repository": "https://github.com/NiravSa/test-heroku-1",
+    "logo": "https://www.svgrepo.com/show/301655/pacifier-dummy.svg",
     "keywords": [
         "node",
         "express"
