@@ -8,7 +8,7 @@ app.use(cors({ exposedHeaders: ["Link"] }));
 app.use(bodyParser.urlencoded({ extended: true, }));
 app.use(bodyParser.json({ limit: "50MB" }));
 
-app.post('/api/v1/pr-apikey/add', async (req, res) => {
+app.get('/', async (req, res) => {
     res.status(200);
     res.json({ status: 200 });
 });
